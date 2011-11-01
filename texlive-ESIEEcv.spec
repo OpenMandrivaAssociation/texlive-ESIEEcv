@@ -12,6 +12,8 @@ BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(post):	texlive-tlpkg
 Conflicts:	texlive-texmf <= 20110705-3
+Conflicts:	texlive-doc <= 20110705-3
+Conflicts:	texlive-source <= 20110705-3
 
 %description
 The package allows the user to set up a curriculum vitae as a
