@@ -1,3 +1,9 @@
+# revision 15878
+# category Package
+# catalog-ctan /macros/latex/contrib/ESIEEcv
+# catalog-date 2009-04-30 00:32:08 +0200
+# catalog-license lppl
+# catalog-version undef
 Name:		texlive-ESIEEcv
 Version:	20090430
 Release:	1
@@ -44,6 +50,7 @@ French employer will expect.
 #- source
 %doc %{_texmfdistdir}/source/latex/ESIEEcv/ESIEEcv.dtx
 %doc %{_texmfdistdir}/source/latex/ESIEEcv/ESIEEcv.ins
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -54,3 +61,5 @@ French employer will expect.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
