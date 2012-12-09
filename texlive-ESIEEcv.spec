@@ -50,3 +50,19 @@ French employer will expect.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 20090430-2
++ Revision: 751574
+- Rebuild to reduce used resources
+
+* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 20090430-1
++ Revision: 718363
+- texlive-ESIEEcv
+- texlive-ESIEEcv
+- texlive-ESIEEcv
+- texlive-ESIEEcv
+- texlive-ESIEEcv
+- texlive-ESIEEcv
+
