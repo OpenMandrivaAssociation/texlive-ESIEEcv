@@ -6,7 +6,7 @@
 # catalog-version undef
 Name:		texlive-ESIEEcv
 Version:	20090430
-Release:	7
+Release:	8
 Summary:	Curriculum vitae for French use
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/ESIEEcv
