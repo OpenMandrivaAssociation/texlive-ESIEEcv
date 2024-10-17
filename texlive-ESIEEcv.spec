@@ -3,7 +3,7 @@ Version:	59638
 Release:	2
 Summary:	Curriculum vitae for French use
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/ESIEEcv
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/ESIEEcv
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/esieecv.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/esieecv.doc.r%{version}.tar.xz
